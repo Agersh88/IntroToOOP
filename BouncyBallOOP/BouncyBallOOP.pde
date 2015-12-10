@@ -15,5 +15,6 @@ void draw() {
   for(int q = 0; q < count; q++){
   b[q].move();            //call b's move() method
   b[q].display();         //call b's display() method
+  b[q].wrapAround();
   }
 }
